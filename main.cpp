@@ -36,8 +36,6 @@ static quint16 resolvePort(const QCoreApplication &a)
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    qDebug() <<QByteArray::fromBase64("ZlO0ngiLVG").toHex();
-    return 0;
     // Set up code that uses the Qt event loop here.
     // Call QCoreApplication::quit() or QCoreApplication::exit() to quit the application.
     // A not very useful example would be including
